@@ -275,6 +275,12 @@
 							<label for="exportDataWithCR"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.carriage_return" )%></label>
 						</TD>
 					</TR>
+					<TR>
+						<TD><INPUT TYPE="checkbox" ID="exportDataWithColumnName"></TD>
+						<TD nowrap="nowrap">
+							<label for="exportDataWithColumnName"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.name" )%></label>
+						</TD>
+					</TR>
 				</TABLE>
 			</DIV>
 		</TD>
