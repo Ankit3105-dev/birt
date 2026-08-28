@@ -250,35 +250,32 @@
 			<DIV>
 				<TABLE cellpadding="0" cellspacing="0">
 					<TR>
-						<TD><INPUT TYPE="checkbox" ID="exportDataWithColumnDisplayName" checked=true></TD>
-						<TD nowrap="nowrap">
-							<label for="exportDataWithColumnDisplayName"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.display.name" )%></label>
-						</TD>
-						<TD style="padding-left:20px;"><INPUT TYPE="checkbox" ID="exportDataWithColumnName"></TD>
-						<TD nowrap="nowrap">
-							<label for="exportDataWithColumnName"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.name" )%></label>
-						</TD>
-					</TR>
-					<TR >
 						<TD><INPUT TYPE="checkbox" ID="exportColumnDataType"></TD>
 						<TD>
 							<label for="exportColumnDataType"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.datatype" )%></label>
 						</TD>
-						<TD style="padding-left:20px;" ><INPUT TYPE="checkbox" ID="exportColumnLocaleNeutral"></TD>
-						<TD rowspan="2" valign="top" style="padding-top:3px;">
-							<label for="exportColumnLocaleNeutral"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.localeneutral" )%></label>
+						<TD style="padding-left:20px;">
+							<INPUT TYPE="checkbox" ID="exportColumnLocaleNeutral">
+						</TD>
+						<TD>
+							<label for="exportColumnLocaleNeutral">
+								<%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.localeneutral" )%>
+							</label>
 						</TD>
 					</TR>
+
 					<TR>
 						<TD><INPUT TYPE="checkbox" ID="exportDataWithCR"></TD>
 						<TD nowrap="nowrap">
 							<label for="exportDataWithCR"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.carriage_return" )%></label>
 						</TD>
-					</TR>
-					<TR>
-						<TD><INPUT TYPE="checkbox" ID="exportDataWithColumnName"></TD>
+						<TD style="padding-left:20px;">
+							<INPUT TYPE="checkbox" ID="exportDataWithColumnName" checked="checked">
+						</TD>
 						<TD nowrap="nowrap">
-							<label for="exportDataWithColumnName"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.name" )%></label>
+							<label for="exportDataWithColumnName">
+								<%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.name" )%>
+							</label>
 						</TD>
 					</TR>
 				</TABLE>
