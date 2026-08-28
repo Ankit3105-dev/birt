@@ -258,9 +258,7 @@
 							<INPUT TYPE="checkbox" ID="exportColumnLocaleNeutral">
 						</TD>
 						<TD>
-							<label for="exportColumnLocaleNeutral">
-								<%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.localeneutral" )%>
-							</label>
+							<label for="exportColumnLocaleNeutral"> <%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.localeneutral" )%></label>
 						</TD>
 					</TR>
 
@@ -273,9 +271,7 @@
 							<INPUT TYPE="checkbox" ID="exportDataWithColumnName" checked="checked">
 						</TD>
 						<TD nowrap="nowrap">
-							<label for="exportDataWithColumnName">
-								<%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.name" )%>
-							</label>
+							<label for="exportDataWithColumnName"><%= BirtResources.getMessage( "birt.viewer.dialog.exportdata.column.name" )%></label>
 						</TD>
 					</TR>
 				</TABLE>
